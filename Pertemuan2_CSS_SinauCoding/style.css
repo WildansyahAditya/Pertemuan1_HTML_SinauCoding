@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+}
+
+.first-content{
+    background: url(./img/html.png);
+    background-repeat: repeat-y;
+    background-position: left;
+}
+
+.second-content{
+    background: url(./img/css-3.png);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.container .first-content{
+    background-color: rgb(247, 98, 82);
+}
+
+.container .second-content{
+    background-color: lightblue;
+}
+
+.first-content h1{
+    color: orangered;
+    font-weight: bold;
+}
+.first-content button{
+    background-color: orangered;
+    color: white;
+}
+.second-content h1{
+    color: blue;
+    font-weight: bold;
+}
+.second-content button{
+    background-color: blue;
+    color: white;
+}
+
+.section-tittle th{
+    text-decoration: underline;
+}
+
+
+
+/* Pseudo Code */
+
+th:hover{
+    font-size: 48px;
+}
+.hover:hover{
+    width: 240px;
+}
+h1:hover{
+    font-size: 48px;
+}
