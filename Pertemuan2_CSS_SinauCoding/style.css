@@ -60,3 +60,6 @@ th:hover{
 h1:hover{
     font-size: 48px;
 }
+button:hover{
+    height: 50px;
+}
