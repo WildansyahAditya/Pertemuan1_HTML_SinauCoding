@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    display: inline-block;
+    color: grey;
+
+}
+
+th{
+    font-weight: normal;
+    text-align: left;
+    padding-left: 5px;
+}
+
+
+
+.container{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.set{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10;
+}
+
+.title h1{
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.child a{
+    padding-top: 20px;
+}
+
+
+.main{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+}
+
+.section-left{
+    width: 600px;
+    float: left;
+    padding: 5px;
+}
+
+.section-left p{
+    text-align: left;
+    font-size: 18px;
+}
+
+.section-left h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 48;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+.section-left h2{
+    font-size: 18px;
+    color: gray;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+.section-right p{
+    text-align: left;
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+.section-right h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 48;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+.section-right h2{
+    font-size: 18px;
+    color: gray;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+.section-right{
+    width: 300px;
+    float: right;
+
+}
+
+.dispay-right{
+    display: inline;
+}
+
+.footer{
+    position: relative;
+    padding-top: 80%;
+    text-align: center;
+    z-index: 1;
+}
+.section-footer{
+    background-color: #33df80;
+    height: 30px;
+    color: white;
+    padding-top: 25px;
+
+}
+
+
+.line{
+    border-bottom: 5px solid #dee7ec;
+    font-size: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
